@@ -70,6 +70,5 @@ class PublicController extends Controller
         } else {
             $user->followers()->detach(auth()->user());
         }
-        return redirect()->back();
-    }
+        return redirect()->back();    }
 }
